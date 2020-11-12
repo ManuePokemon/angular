@@ -59,5 +59,8 @@ export class ListaCorreosComponent implements OnInit {
   clickResponder(correo) {
     correo.responder = !correo.responder;
   }
+  accionRespuestaRapida(correo) {
+    correo.responder = false;
+  }
 
 }
